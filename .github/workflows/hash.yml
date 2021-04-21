@@ -45,7 +45,7 @@ jobs:
         run: tail -c +10 target.txt  > executable_target.txt
 
       - name: Bob starts solving the crypto puzzle
-        run: hashcat -m 1400 -a 3 -o cracked.txt executable_target.txt --force
+        run: hashcat -m 1400 -a 3 -o cracked.txt executable_target.txt 
 
       - name: Bob has found a message that ends with last B bits of Puzzle P
         run: cat cracked.txt
