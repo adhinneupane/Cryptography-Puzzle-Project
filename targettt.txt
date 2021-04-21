@@ -1,0 +1,1 @@
+(stdin)= 8ed3f6ad685b959ead7022518e1af76cd816f8e8ec7ccdda1ed4018e8f2223f8
