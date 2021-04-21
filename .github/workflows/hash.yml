@@ -31,7 +31,7 @@ jobs:
         run: git clone https://github.com/KhronosGroup/OpenCL-Headers.git 
 
       - name: Install Dependencies Step 4
-        run: cd hashcat/ && make install
+        run: cd hashcat/ && sudo make install
 
       # - name: Install Dependencies Step 3
       #   run: git clone https://github.com/KhronosGroup/OpenCL-Headers.git hashcat/deps/OpenCL
